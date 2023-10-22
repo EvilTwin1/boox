@@ -16,10 +16,10 @@
 		<meta property="og:title" content="" />
 		<meta property="og:description" content="" />
 
-		<link rel="shortcut icon" href="images/images/logo-fav.png" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="images/images/logo-fav.png" />
+		<link rel="shortcut icon" href="images/logo-fav.png" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="images/logo-fav.png" />
 		<link rel="apple-touch-icon" sizes="72x72" href="images/logo-fav.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="images/images/logo-fav.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="images/logo-fav.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600&display=swap" rel="stylesheet" />
@@ -172,7 +172,7 @@
 						<img src="images/circle-about.png" class="circle-about" alt="" />
 						<p class="about-text">Сейф-Одеса - це приватне сховище, яке надає високий рівень конфіденційності та безпеки для своїх клієнтів і їхнього майна. Доступ до персональних боксів зберігання забезпечується за допомогою унікальної системи ідентифікації, що унеможливлює потрапляння сторонніх осіб до сховища.</p>
 						<p class="about-text">Ви можете вибрати відповідний розмір боксу або розмістити особистий сейф під нашу надійну охорону. Ми гарантуємо повне збереження майна клієнта.</p>
-						<a href="" class="btn btn-light">Детальніше</a>
+						<a href="" class="btn btn--arr"> <span class="btn__text">Детальніше</span></a>
 					</div>
 				</div>
 			</section>
@@ -184,10 +184,31 @@
 						<p class="calculator-descr">Зручний підрахунок вартості оренди босків</p>
 
 						<div class="range-wrap" data-text="Розмір">
+							<div class="labels-range">
+								<span class="label" data-value="S">S</span>
+								<span class="label" data-value="M">M</span>
+								<span class="label" data-value="L">L</span>
+								<span class="label" data-value="XL">XL</span>
+								<span class="label" data-value="XXL">XXL</span>
+							</div>
 							<input type="range" class="range" id="RangeSize" min="1" max="5" value="1" />
 						</div>
 
 						<div class="range-wrap" data-text="Місяців">
+							<div class="labels-range">
+								<span class="label" data-value="1">1</span>
+								<span class="label" data-value="2">2</span>
+								<span class="label" data-value="3">3</span>
+								<span class="label" data-value="4">4</span>
+								<span class="label" data-value="5">5</span>
+								<span class="label" data-value="6">6</span>
+								<span class="label" data-value="7">7</span>
+								<span class="label" data-value="8">8</span>
+								<span class="label" data-value="9">9</span>
+								<span class="label" data-value="10">10</span>
+								<span class="label" data-value="11">11</span>
+								<span class="label" data-value="12">12</span>
+							</div>
 							<input type="range" class="range" id="RangeMonth" min="1" max="12" value="1" />
 						</div>
 						<div class="price">
@@ -237,7 +258,7 @@
 							</div>
 							<input type="text" class="input input-long" placeholder="Email" />
 							<textarea name="" id="" cols="30" rows="10" class="input massage" placeholder="Ваше повідомлення"></textarea>
-							<input type="submit" class="submit" />
+							<input type="submit" class="submit" value="Відправити" />
 						</form>
 					</div>
 					<div class="right-side"></div>
